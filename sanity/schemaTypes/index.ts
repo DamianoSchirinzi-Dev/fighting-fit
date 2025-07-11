@@ -1,7 +1,9 @@
 import { type SchemaTypeDefinition } from "sanity";
-import homepage from "../schemas/homepage";
-import coach from "../schemas/coach";
+import homepageSchema from "../schemas/homepage";
+import coachSchema from "../schemas/coach";
+import classSchema from "../schemas/class";
+import testimonialSchema from "../schemas/testimonial";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [homepage, coach],
+  types: [homepageSchema, coachSchema, classSchema, testimonialSchema],
 };

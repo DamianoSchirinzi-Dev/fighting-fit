@@ -4,9 +4,15 @@ export interface HomePage {
   heroImage: any
   ctaText: string
   ctaLink: string
-  featuredCoaches: {
-    name: string
-    slug: { current: string }
-    image: any
+  heroStats: {
+    label: string
+    value: string
+    icon: string
   }[]
+  aboutSection: {
+    heading: string
+    body: string
+    image: any
+    ctaText: string
+  }
 }
