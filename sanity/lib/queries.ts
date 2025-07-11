@@ -25,7 +25,7 @@ export const classesQuery = `
 `
 
 export const coachesQuery = `
-  *[_type == "coach"] | order(name asc){
+  *[_type == "coach"] | order(order asc){
     name,
     role,
     slug,
